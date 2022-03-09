@@ -1,0 +1,11 @@
+module.exports.BaseCluster = require("./Cluster/BaseCluster").BaseCluster;
+module.exports.Cluster = require("./Cluster/Cluster").Cluster;
+module.exports.ClusterIPC = require("./IPC/ClusterIPC").ClusterIPC;
+module.exports.MasterIPC = require("./IPC/MasterIPC").MasterIPC;
+module.exports.ShardClientUtil = require("./Sharding/ShardClientUtil").ShardClientUtil;
+module.exports.ShardingManager = require("./Sharding/ShardingManager").ShardingManager;
+module.exports.http = require("./Util/Constants").http;
+module.exports.IPCEvents = require("./Util/Constants").IPCEvents;
+module.exports.SharderEvents = require("./Util/Constants").SharderEvents;
+module.exports.version = require("./Util/Constants").version;
+module.exports.Util = require("./Util/Util");
